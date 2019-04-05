@@ -22,6 +22,8 @@ MIMO linear system identification using commom subspace methods is an active are
 ## Testing
 This is the available benchmark:
 
+Second order system, matrix A is 2x2
+
 ```python
  x(t+1) = A*x(t) + B*u(t)
  y(t)   = C*x(t) + D*u(t)
