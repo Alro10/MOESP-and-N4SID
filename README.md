@@ -2,6 +2,13 @@
 
 MIMO linear system identification using commom subspace methods is an active area, many algorithms were develop in recent years. I implemented well known methods called MOESP and N4SID during my master degree.
 
+## State space model
+
+```python
+ x(t+1) = A*x(t) + B*u(t)
+ y(t)   = C*x(t) + D*u(t)
+ ```
+
 ## MOESP
 
  Multivariable Output-Error State sPace (MOESP) is a deterministic method to identify linear time invariant systems. The MOESP method developed by M. Verhaegen and P. Dewilde is based on the **LQ decomposition** of Hankel matrix formed from input-output data, where L is lower triangular and Q is orthogonal. A **Singular Value Decomposition (SVD)** can be performed on a block from the L (L22) matrix to obtain the system order and the extended observability matrix. From this matrix it is possible to estimate the matrices C and A of state-space model. The final step is to solve overdetermined linear equations using the least-squares method to calculate matrices B and D.
@@ -20,14 +27,11 @@ MIMO linear system identification using commom subspace methods is an active are
  </p>
 
 ## Testing
-This is the available benchmark:
+This is the available benchmark (MIMO dynamic system):
 
-Second order system, matrix A is 2x2
+Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
-```python
- x(t+1) = A*x(t) + B*u(t)
- y(t)   = C*x(t) + D*u(t)
- ```
+system.m: This generate the data, white noise as input.
 
 If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!
 
