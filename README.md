@@ -4,6 +4,8 @@ MIMO linear system identification using commom subspace methods is an active are
 
 ## State space model
 
+The identification of discrete multivariable linear time-invariant systems using subspace methods allows to determine a causal and time invariant model, estimated only from the system inputs and outputs. The main advantage of this approach is that a multivariable system can be modeled, without any a priori assumption about the system order (state vector dimension). A discrete time-invariant model can be described by the following equation in the state space:
+
 ```python
  x(t+1) = A*x(t) + B*u(t)
  y(t)   = C*x(t) + D*u(t)
