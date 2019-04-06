@@ -33,6 +33,12 @@ Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
 system.m: This generate the data, white noise as input.
 
+moespar.m: MOESP function.
+
+n4sidkatamodar.m: N4SID function.
+
+SETUPFUNCTIONS2.m: run this file for see everything.
+
 If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!
 
 ## Citing
