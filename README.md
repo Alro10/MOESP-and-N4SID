@@ -8,8 +8,16 @@ The identification of discrete multivariable linear time-invariant systems using
 
 ```python
  x(t+1) = A*x(t) + B*u(t)
- y(t)   = C*x(t) + D*u(t)
+ y(t)   = C*x(t) + D*u(t)  # equation 1
  ```
+
+## Extended State Space Model
+
+In this section an extended model that is useful for the subspace methods is presented.
+
+For a time instant `t`, it is defined that inputs before that instant are null. With this, from the equation (1), it is possible to substitute the relation between inputs, outputs and states between the instants `t` and `t+k-1`, where `k` is an integer, in the following way:
+
+
 
 ## MOESP
 
