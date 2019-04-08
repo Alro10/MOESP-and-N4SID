@@ -1,16 +1,16 @@
 % -------------------------------------------------------
-% Generate system data (inputs and outputs) 
+% Generate system data (inputs and outputs)
 
 % --------------------------------------------------------
-% Author: Alexander Robles 
-% Feec-UNICAMP
-% --------------------------------------------------------- 
+% Author: Alexander Robles
+% FEEC-UNICAMP
+% ---------------------------------------------------------
 clear all
 clc
 
 %   The state space system equations:
-%                  x_k+1 = A x_k + B u_k         
-%                    y_k   = C x_k + D u_k 
+%                  x_k+1 = A x_k + B u_k
+%                    y_k   = C x_k + D u_k
 
 Ar=[0.2128 0.1360 0.1979 -0.0836;
 0.1808 0.4420 -0.3279 0.2344;
@@ -34,15 +34,15 @@ tt = 0:1:(N-1);
 
 
 
-% -------------Input, u, is persistently exciting --------------
+% -------------Input, u (white noise), is persistently exciting --------------
 u1 = randn(1,N);
 u2 = randn(1,N);
 u3 = randn(1,N);
-u = [u1; u2; u3];        
+u = [u1; u2; u3];
 
 
 %-------------Desing state-space model and outputs------
-X0=zeros(4,1); % first state 
+X0=zeros(4,1); % first state
 
 %%%-----
 x(:,1) = X0;
@@ -66,9 +66,8 @@ end;
 % plot(tt,y(1,:),'g',tt,yc(1,:),'*b');
 % title('Outputs');
 % legend('y1', 'y1c');
-% 
+%
 % figure (3)
 % plot(tt,y(2,:),'g',tt,yc(2,:),'*b');
 % title('Outputs');
 % legend('y2', 'y2c');
-
