@@ -17,8 +17,7 @@ In this section an extended model that is useful for the subspace methods is pre
 
 For a time instant `t`, it is defined that inputs before that instant are null. With this, from the equation (1), it is possible to substitute the relation between inputs, outputs and states between the instants `t` and `t+k-1`, where `k` is an integer, in the following way:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\Psi_{k}=\left[&space;\begin{array}{cccc}&space;D&&space;0&space;&&space;0&space;&&space;0\\&space;CB&&space;D&space;&0&0\\&space;\vdots&\vdots&\ddots&\vdots\\&space;CA^{K-2}B&\cdots&CB&D\end{array}&space;\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Psi_{k}=\left[&space;\begin{array}{cccc}&space;D&&space;0&space;&&space;0&space;&&space;0\\&space;CB&&space;D&space;&0&0\\&space;\vdots&\vdots&\ddots&\vdots\\&space;CA^{K-2}B&\cdots&CB&D\end{array}&space;\right]" title="\Psi_{k}=\left[ \begin{array}{cccc} D& 0 & 0 & 0\\ CB& D &0&0\\ \vdots&\vdots&\ddots&\vdots\\ CA^{K-2}B&\cdots&CB&D\end{array} \right]" /></a>
-<a href="https://www.codecogs.com/eqnedit.php?latex=\Psi_{k}=\left[&space;\begin{array}{cccc}&space;D&&space;0&space;&&space;0&space;&&space;0\\&space;CB&&space;D&space;&0&0\\&space;\vdots&\vdots&\ddots&\vdots\\&space;CA^{K-2}B&\cdots&CB&D\end{array}&space;\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Psi_{k}=\left[&space;\begin{array}{cccc}&space;D&&space;0&space;&&space;0&space;&&space;0\\&space;CB&&space;D&space;&0&0\\&space;\vdots&\vdots&\ddots&\vdots\\&space;CA^{K-2}B&\cdots&CB&D\end{array}&space;\right]" title="\Psi_{k}=\left[ \begin{array}{cccc} D& 0 & 0 & 0\\ CB& D &0&0\\ \vdots&\vdots&\ddots&\vdots\\ CA^{K-2}B&\cdots&CB&D\end{array} \right]" /></a>
+`$z = x + y$`
 
 ## MOESP
 
