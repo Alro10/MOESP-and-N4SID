@@ -17,7 +17,7 @@ In this section an extended model that is useful for the subspace methods is pre
 
 For a time instant `t`, it is defined that inputs before that instant are null. With this, from the equation (1), it is possible to substitute the relation between inputs, outputs and states between the instants `t` and `t+k-1`, where `k` is an integer, in the following way:
 
-`$z = x + y$`
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y_{0|k-1}=\mathcal{O}_{k}X_{N-1}&plus;\Psi_{k}&space;U_{0|k-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y_{0|k-1}=\mathcal{O}_{k}X_{N-1}&plus;\Psi_{k}&space;U_{0|k-1}" title="Y_{0|k-1}=\mathcal{O}_{k}X_{N-1}+\Psi_{k} U_{0|k-1}" /></a>
 
 ## MOESP
 
