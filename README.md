@@ -39,17 +39,19 @@ This is the available benchmark (MIMO dynamic system):
 
 Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
-`system.m`: This generate the data, white noise as input.
+`systemdata.m`: This generate the data, white noise as input.
 
 `moespar.m`: MOESP function.
 
 `n4sidkatamodar.m`: N4SID function.
 
+`modeloutputs.m`: generate plot of model outputs
+
 `SETUPFUNCTIONS2.m`: run this file for see everything.
 
 ### Results
 
-Compare system outputs with both MOESP and N4SID outputs. 
+Compare system outputs with both MOESP and N4SID outputs.
 
 <p align="center">
 <img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/moesp_output.jpg" alt="alt text" width="80%" height="80%">
