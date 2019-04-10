@@ -49,7 +49,7 @@ Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
 ### Results
 
-Compare system outputs with both MOESP and N4SID outputs.
+Compare system outputs with both MOESP and N4SID outputs. 
 
 <p align="center">
 <img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/moesp_output.jpg" alt="alt text" width="80%" height="80%">
