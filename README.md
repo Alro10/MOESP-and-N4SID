@@ -72,7 +72,7 @@ Add functions
 
 Add functions
 
-If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!
+*If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!* :smiley: :+1: :handshake:
 
 ## Citing
 
