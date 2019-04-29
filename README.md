@@ -62,11 +62,15 @@ Compare system outputs with both MOESP and N4SID outputs.
 <img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sid_output.jpg" alt="alt text" width="80%" height="80%">
 </p>
 
-## Time variant system identification
+## Time-variant system identification
 
 ### MOESP-VAR
 
+Add functions
+
 ### N4SID-VAR
+
+Add functions
 
 If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!
 
