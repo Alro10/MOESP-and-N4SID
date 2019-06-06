@@ -1,6 +1,6 @@
 # MIMO linear system identification
 
-MIMO linear system identification using commom subspace methods is an active area, many algorithms were develop in recent years. I implemented well known methods called MOESP and N4SID during my master degree.
+MIMO linear system identification using common subspace methods is an active area, many algorithms were develop in recent years. I implemented well known methods called MOESP and N4SID during my master degree.
 
 ## State space model
 
@@ -64,13 +64,15 @@ Compare system outputs with both MOESP and N4SID outputs.
 
 ## Time-variant system identification
 
+Many time-variant systems are able to approximate to time-invariant in intervals of time called windows of time.
+
 ### MOESP-VAR
 
-Add functions
+`moesvaresv.m`: MOESP-VAR function.
 
 ### N4SID-VAR
 
-Add functions
+`n4sidesv.m`: N4SID-VAR function.
 
 *If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!* :smiley: :+1: :handshake:
 
