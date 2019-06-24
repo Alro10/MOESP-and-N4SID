@@ -73,7 +73,7 @@ Many time-variant systems are able to approximate to time-invariant in intervals
 ### N4SID-VAR (using Markov parameters)
 
 <p align="center">
-<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sidvar-chart.png" alt="alt text" width="80%" height="80%">
+<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sidvar-chart.png" alt="alt text" width="50%" height="50%">
 </p>
 
 
