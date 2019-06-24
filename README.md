@@ -49,19 +49,6 @@ Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
 `SETUPFUNCTIONS2.m`: run this file for see everything.
 
-## Results
-
-Compare system outputs with both MOESP and N4SID outputs.
-
-<p align="center">
-<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/moesp_output.jpg" alt="alt text" width="80%" height="80%">
-</p>
-
-
-<p align="center">
-<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sid_output.jpg" alt="alt text" width="80%" height="80%">
-</p>
-
 ## Time-variant system identification
 
 Many time-variant systems are able to approximate to time-invariant in intervals of time called windows of time.
@@ -79,6 +66,19 @@ Many time-variant systems are able to approximate to time-invariant in intervals
 </p>
 
 To run all the functions: `setup_ti.m`
+
+## Results
+
+Compare system outputs with VAR methods.
+
+<p align="center">
+<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/moesp_output.jpg" alt="alt text" width="80%" height="80%">
+</p>
+
+
+<p align="center">
+<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sid_output.jpg" alt="alt text" width="80%" height="80%">
+</p>
 
 
 *If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!* :smiley: :+1: :handshake:
