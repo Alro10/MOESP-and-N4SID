@@ -70,7 +70,12 @@ Many time-variant systems are able to approximate to time-invariant in intervals
 
 `moesvaresv.m`: MOESP-VAR function.
 
-### N4SID-VAR
+### N4SID-VAR (using Markov parameters)
+
+<p align="center">
+<img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sidvar-chart.png" alt="alt text" width="80%" height="80%">
+</p>
+
 
 `n4sidesv.m`: N4SID-VAR function.
 
