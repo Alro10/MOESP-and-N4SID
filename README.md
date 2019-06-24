@@ -72,12 +72,14 @@ Many time-variant systems are able to approximate to time-invariant in intervals
 
 ### N4SID-VAR (using Markov parameters)
 
+`n4sidesv.m`: N4SID-VAR function.
+
 <p align="center">
 <img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sidvar-chart.png" alt="alt text" width="50%" height="50%">
 </p>
 
+To run all the functions: `setup_ti.m`
 
-`n4sidesv.m`: N4SID-VAR function.
 
 *If you have questions or problems, please open an issue or, even better, fix the problem yourself and submit a pull request!* :smiley: :+1: :handshake:
 
