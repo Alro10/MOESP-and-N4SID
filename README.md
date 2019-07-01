@@ -68,7 +68,6 @@ Many time-variant systems are able to approximate to time-invariant in intervals
 <img src="https://github.com/Alro10/MOESP-and-N4SID/blob/master/n4sidvar-chart.png" alt="alt text" width="50%" height="50%">
 </p>
 
-To run all the functions: `setup_ti.m`
 
 ### Results
 
