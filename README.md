@@ -2,7 +2,9 @@
 
 MIMO linear system identification using common subspace methods is an active area, many algorithms were develop in recent years. I implemented well known methods called MOESP and N4SID during my master degree.
 
-## State space model
+## Time-invariant identification
+
+### State space model
 
 The identification of discrete multivariable linear time-invariant systems using subspace methods allows to determine a causal and time invariant model, estimated only from the system inputs and outputs. The main advantage of this approach is that a multivariable system can be modeled, without any a priori assumption about the system order (state vector dimension). A discrete time-invariant model can be described by the following equation in the state space:
 
@@ -11,7 +13,7 @@ The identification of discrete multivariable linear time-invariant systems using
  y(t)   = C*x(t) + D*u(t)  # equation 1
  ```
 
-## Extended State Space Model
+### Extended State Space Model
 
 In this section an extended model that is useful for the subspace methods is presented.
 
@@ -22,20 +24,21 @@ Y(0|k-1) = O(k)X(N-1) + Psi(k)U(0|k-1) # equation 2
 
 ```
 
-## MOESP
+### MOESP
 
  Multivariable Output-Error State sPace (MOESP) is a deterministic method to identify linear time invariant systems. The MOESP method developed by M. Verhaegen and P. Dewilde is based on the **LQ decomposition** of Hankel matrix formed from input-output data, where L is lower triangular and Q is orthogonal. A **Singular Value Decomposition (SVD)** can be performed on a block from the L (L22) matrix to obtain the system order and the extended observability matrix. From this matrix it is possible to estimate the matrices C and A of state-space model. The final step is to solve overdetermined linear equations using the least-squares method to calculate matrices B and D.
 
 
 
-## N4SID:
+### N4SID:
 
  Numerical Algorithms for Subspace State Space System Identification (N4SID) developed by P. Van Overschee and B. De Moor. The method stars with the oblique projection of the future outputs to past inputs and outputs into the future inputs direction. The second step is to apply the **LQ decomposition** and then the state vector can be computed by the **SVD**. Finally, it is possible to compute the matrices A, B, C and D of state-space model by using the least-squares method.
 
 
 
-## Testing
-This is the available benchmark (MIMO dynamic system):
+### Testing
+
+This is the available benchmark (MIMO time-invariant:
 
 Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
@@ -47,7 +50,7 @@ Second order system, matrix A is 4x4, B is 4x3, C is 2x4 and D is 2x4.
 
 `modeloutputs.m`: generate plot of model outputs
 
-`SETUPFUNCTIONS2.m`: run this file for see everything.
+`setup_ti.m`: run this file for see everything.
 
 ## Time-variant system identification
 
@@ -67,7 +70,7 @@ Many time-variant systems are able to approximate to time-invariant in intervals
 
 To run all the functions: `setup_ti.m`
 
-## Results
+### Results
 
 Compare system outputs with VAR methods.
 
